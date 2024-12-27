@@ -18,9 +18,11 @@
     "typescript": "^5.7.2"
   },
   "dependencies": {
+    "@prisma/client": "^4.8.0",
     "api-teste": "file:",
     "cors": "^2.8.5",
     "express": "^4.21.2",
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "prisma": "^4.8.0"
   }
 }
