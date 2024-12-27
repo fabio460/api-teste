@@ -3,13 +3,14 @@ import { Request, Response } from "express";
 const prisma = new PrismaClient()
 
 export const listar = async(req:Request, res:Response)=>{
-    try {
-       const r = await prisma.user.findMany()
-       res.json(r)
+//     try {
+//        const r = await prisma.user.findMany()
+//        res.json(r)
     
-   } catch (error) {
-    res.send(error)
-   }
+//    } catch (error) {
+//     res.send(error)
+//    }
+res.send("fabio")
 }
 
 
