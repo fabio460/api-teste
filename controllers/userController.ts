@@ -12,6 +12,7 @@ export const listar = async(req:Request, res:Response)=>{
    }
 }
 
+
 export const criar = async(req:Request, res:Response)=>{
     const {email,senha,nome} = req.body
     try {
