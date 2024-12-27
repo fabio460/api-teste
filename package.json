@@ -14,12 +14,10 @@
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "@types/node": "^22.10.2",
-    "prisma": "^6.1.0",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2"
   },
   "dependencies": {
-    "@prisma/client": "^6.1.0",
     "api-teste": "file:",
     "cors": "^2.8.5",
     "express": "^4.21.2",
